@@ -1,56 +1,60 @@
-Aluraflix
-Aluraflix é um projeto desenvolvido como parte do desafio da Alura. É uma aplicação web para listar e gerenciar vídeos de jogos, similar a um catálogo de vídeos. Este projeto foi construído utilizando React e Vite.
+# Aluraflix
 
-Índice
-Visão Geral
-Funcionalidades
-Tecnologias Utilizadas
-Instalação e Uso
-Pré-requisitos
-Passos para Rodar a Aplicação
-Scripts Disponíveis
-Estrutura do Projeto
-Contribuindo
-Licença
-Contato
-Visão Geral
-Aluraflix é uma aplicação web onde os usuários podem visualizar uma lista de vídeos de jogos, adicionar novos vídeos, editar vídeos existentes e removê-los. A aplicação é construída com uma interface amigável e moderna utilizando React, e é empacotada e gerenciada com Vite para um desenvolvimento rápido e eficiente.
+Projeto desenvolvido para Alura em parceria com a ONE para a turma T6 do curso de Frontend especialização em React.
 
-Funcionalidades
-Listar vídeos de jogos
-Adicionar novos vídeos
-Editar vídeos existentes
-Remover vídeos
-Modal para gerenciar categorias
-Tecnologias Utilizadas
-React
-Vite
-Axios
-Styled-components
-JSON Server (para simulação de API)
-Instalação e Uso
-Pré-requisitos
-Node.js (v14 ou superior)
-npm ou yarn
-Passos para Rodar a Aplicação
-##Clone o repositório:
+## Descrição
 
-bash git clone https://github.com/seu-usuario/aluraflix.git cd aluraflix ##Instale as dependências:
+O Aluraflix é uma aplicação de streaming de vídeos, onde os usuários podem visualizar, adicionar, editar e deletar vídeos organizados por categorias. O projeto foi desenvolvido utilizando React para o frontend, json-server para simular uma API backend durante o desenvolvimento local, e Firebase Firestore para a produção.
 
-##bash Copiar código npm install ou
+## Funcionalidades
 
-###bash yarn Inicie o servidor JSON:
+- Visualização de vídeos por categorias.
+- Adição de novos vídeos.
+- Edição de vídeos existentes.
+- Exclusão de vídeos.
+- Interface responsiva para dispositivos móveis.
 
-##bash npx json-server --watch db.json --port 8000 Inicie a aplicação:
+## Tecnologias Utilizadas
 
-##bash npm run dev ou
+- React
+- React Router
+- Redux
+- Styled Components
+- Axios
+- json-server (para desenvolvimento local)
+- Firebase Firestore (para produção)
+- JavaScript
+- API (GET, PUT, DELETE)
+- Vercel (para deploy)
+- GitHub (para controle de versão)
 
-##bash yarn dev Abra a aplicação no navegador:
+## Instalação
 
-Vá para http://localhost:3000
+1. Clone o repositório do projeto:
+git clone 
 
-##Contribuindo Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções de bugs, por favor, abra uma issue ou envie um pull request.
+2. Navegue até o diretório do projeto:
+cd
 
-##Licença Este projeto está licenciado sob a licença MIT.
+3. Instale as dependências do projeto:
+npm install
 
-###Contato Matheus Nani - LinkedIn
+## Executando o Projeto Localmente
+
+1. Inicie o json-server para simular a API:
+npm run server
+
+2. Inicie o servidor de desenvolvimento do React:
+npm start
+
+3. Abra seu navegador e acesse:
+http://localhost:3000
+
+## Visualização
+
+Para ver a versão rodando do projeto, acesse: [Aluraflix](https://aluraflix-programa-one.vercel.app/)
+
+
+
+
+
